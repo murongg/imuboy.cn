@@ -1,3 +1,9 @@
+header:
+  nav:
+    home: 首页
+project:
+  title: 项目
+
 button:
   about: 关于
   back: 返回
@@ -12,3 +18,5 @@ intro:
   aka: 也叫
   whats-your-name: 输入你的名字
 not-found: 未找到页面
+footer:
+  copyright: CC BY-NC-SA 4.0 2022-PRESENT © 木荣

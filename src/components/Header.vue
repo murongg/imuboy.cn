@@ -9,14 +9,16 @@ const toggleLocales = () => {
 
 <template>
   <header mt-6 text-gray-700 dark:text-gray-200 px-15>
-    <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
-      <div i-carbon-home />
-    </RouterLink>
+
     <nav flex items-center justify-end>
 
       <a class="icon-btn mx-2" href="/projects">
-        {{t('project.title')}}
+        {{ t('project.title') }}
       </a>
+
+      <RouterLink class="icon-btn mx-2" to="/" :title="t('button.home')">
+        <div i-carbon-home />
+      </RouterLink>
 
       <RouterLink class="icon-btn mx-2" to="/about" :title="t('button.about')">
         <div i-carbon-dicom-overlay />

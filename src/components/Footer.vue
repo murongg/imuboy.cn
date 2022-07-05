@@ -3,7 +3,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <footer class="mt-5 mx-auto text-center opacity-75 dark:opacity-50 text-sm">
-    {{ t('footer.copyright') }}
+  <footer class="prose prose-xs mt-5 m-auto">
+    <div class="text-left text-sm opacity-75 dark:opacity-50"> {{ t('footer.copyright') }}</div>
   </footer>
 </template>

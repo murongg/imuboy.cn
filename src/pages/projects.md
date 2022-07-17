@@ -49,7 +49,11 @@ projects:
       link: 'https://github.com/vitest-dev/vitest'
       desc: 'A Vite-native test framework.'
       icon: 'vitest'
-      
+    - name: 'vuejs-challenges'
+      link: 'https://github.com/webfansplz/vuejs-challenges'
+      desc: 'Collection of Vue.js challenges'
+      icon: 'i-ri:vuejs-fill'
+
   Configurations:
     - name: 'eslint-config'
       link: 'https://github.com/murongg/eslint-config'

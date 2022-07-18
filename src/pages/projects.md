@@ -53,6 +53,12 @@ projects:
       link: 'https://github.com/webfansplz/vuejs-challenges'
       desc: 'Collection of Vue.js challenges'
       icon: 'i-ri:vuejs-fill'
+  
+  VS Code Extensions:
+    - name: 'vscode-vuejs-challenges'
+      link: 'https://github.com/murongg/vscode-vuejs-challenges'
+      desc: 'Vuejs challenges in VS Code.'
+      icon: 'i-ri:vuejs-fill'
 
   Configurations:
     - name: 'eslint-config'
